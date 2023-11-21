@@ -14,11 +14,21 @@ header {
 }
 
 .container {
-    max-width: 955px;
+    max-width: 945px;
     margin: 0 auto;
-    min-height: 800px;
+    height: 800px;
     background-color: purple;
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-content: flex-start;
+}
+
+.card {
+    height: 390px;
+    border: 2px dashed yellow;
+    width: 32%;
 }
 
 /* nav */
