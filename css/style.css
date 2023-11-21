@@ -72,6 +72,13 @@ a {
     width: 50%;
 }
 
+#logo {
+    width: 25%;
+    display: block;
+    margin-left: 165px;
+    margin-top: 15px;
+}
+
 /* footer */
 
 
