@@ -40,15 +40,15 @@ a {
     color: white;
 }
 
-.category {
+.target {
     list-style-type: none;
 }
 
-/* .flex {
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 
 /* nav */
@@ -84,6 +84,7 @@ a {
 .size{
     max-width: 100%;
     height: auto;
+    position: relative;
 }
 
 /* footer */
