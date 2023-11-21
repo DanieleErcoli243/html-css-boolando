@@ -16,7 +16,6 @@ header {
 .container {
     max-width: 945px;
     margin: 0 auto;
-    height: 800px;
     background-color: purple;
     margin-top: 30px;
     display: flex;
@@ -77,6 +76,14 @@ a {
     display: block;
     margin-left: 165px;
     margin-top: 15px;
+}
+
+
+/* main */
+
+.size{
+    max-width: 100%;
+    height: auto;
 }
 
 /* footer */
