@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generici */
+
+header {
+    height: 70px;
+    background-color: orange;
+}
+
+.navbar {
+    width: 50%;
+    border: 2px dashed blue;
+    height: 100%;
+    display: flex;
+    margin-left: 25%;
+}
+
+.nav-child {
+    width: 25%;
+    border: 2px dashed blue;
+    height: 100%;
+}
+
+.nav-child.larger {
+    width: 50%;
+}
