@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* generici */
@@ -16,7 +17,6 @@ header {
 .container {
     max-width: 945px;
     margin: 0 auto;
-    background-color: purple;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -50,6 +50,22 @@ a {
     gap: 5px;
 }
 
+h5 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.68);
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.discount {
+    color: red;
+}
+
+.original {
+    text-decoration: line-through;
+}
 
 /* nav */
 
