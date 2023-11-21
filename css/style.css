@@ -33,6 +33,7 @@ header {
 
 footer {
     background-color: black;
+    height: 70px;
 }
 
 /* nav */
@@ -54,3 +55,7 @@ footer {
 .nav-child.larger {
     width: 50%;
 }
+
+/* footer */
+
+
