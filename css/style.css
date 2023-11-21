@@ -13,12 +13,18 @@ header {
     background-color: orange;
 }
 
+.container {
+    max-width: ;
+}
+
+/* nav */
+
 .navbar {
-    width: 50%;
+    width: 70%;
     border: 2px dashed blue;
     height: 100%;
     display: flex;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 .nav-child {
