@@ -25,7 +25,6 @@ header {
 }
 
 .card {
-    height: 390px;
     border: 2px dashed yellow;
     width: 32%;
 }
@@ -56,7 +55,6 @@ a {
 
 .navbar {
     width: 70%;
-    border: 2px dashed blue;
     height: 100%;
     display: flex;
     margin-left: 15%;
@@ -64,7 +62,6 @@ a {
 
 .nav-child {
     width: 25%;
-    border: 2px dashed blue;
     height: 100%;
 }
 
@@ -76,9 +73,19 @@ a {
     width: 25%;
     display: block;
     margin-left: 165px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
+i {
+    color: white;
+}
+
+.flex-link {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 /* main */
 
