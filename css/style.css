@@ -17,14 +17,15 @@ header {
     left: 0;
     right: 0;
     box-shadow: 0 4px 2px gray;
+}
 
-    
+body{
+    padding-top: 90px;
 }
 
 .container {
     max-width: 945px;
     margin: 0 auto;
-    margin-top: 95px;
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
@@ -114,6 +115,7 @@ h4 {
 .size{
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 /* footer */
@@ -145,7 +147,19 @@ h6 {
 
 /* position */
 
-
+.heart{
+    display: inline-block;
+    color: black;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    text-align: center;
+}
 
 .percent {
     display: inline;
@@ -170,4 +184,33 @@ h6 {
     left: 0;
 }
 
+/* hover */
 
+.left:hover {
+    content: url(../img/1b.webp);
+} 
+
+.center:hover {
+    content: url(../img/2b.webp);
+}
+
+.right:hover {
+    content: url(../img/3b.webp);
+}
+
+.left-b:hover {
+    content: url(../img/4b.webp);
+}
+
+.center-b:hover{
+    content: url(../img/5b.webp);
+}
+
+.right-b:hover {
+    content: url(../img/6b.webp);
+}
+
+.heart:hover{
+    content: "\2764";
+    color: red;
+}
