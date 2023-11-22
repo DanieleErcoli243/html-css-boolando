@@ -12,12 +12,19 @@
 header {
     height: 70px;
     background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 2px gray;
+
+    
 }
 
 .container {
     max-width: 945px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 95px;
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
@@ -27,14 +34,15 @@ header {
 .card {
     border: 2px dashed yellow;
     width: 32%;
+    position: relative;
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(36, 34, 34);
     height: 70px;
 }
 
-a {
+a, i {
     text-decoration: none;
     color: white;
 }
@@ -88,17 +96,15 @@ h4 {
 #logo {
     width: 25%;
     display: block;
-    margin-left: 165px;
+    margin-left: 215px;
     margin-top: 20px;
 }
 
-i {
-    color: white;
-}
+
 
 .flex-link {
-    justify-content: flex-end;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 10px;
 }
@@ -108,9 +114,60 @@ i {
 .size{
     max-width: 100%;
     height: auto;
-    position: relative;
 }
 
 /* footer */
+
+.l-child {
+    width: 50%;
+
+}
+
+.r-child{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+h3 {
+    color: white;
+    margin-top: 10px;
+}
+
+.flex.target {
+    margin-top: 10px;
+}
+
+h6 {
+    color: white;
+}
+
+/* position */
+
+
+
+.percent {
+    background-color: red;
+    position: absolute;
+    bottom: 98px;
+    left: 0;
+}
+
+.echo-friendly {
+    background-color: green;
+    position: absolute;
+    bottom: 98px;
+    left: 40px;
+    display: inline;
+}
+
+.esprit {
+    display: inline;
+    background-color: green;
+    position: absolute;
+    bottom: 98px;
+    left: 0;
+}
 
 
