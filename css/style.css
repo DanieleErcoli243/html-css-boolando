@@ -148,6 +148,7 @@ h6 {
 
 
 .percent {
+    display: inline;
     background-color: red;
     position: absolute;
     bottom: 98px;
@@ -163,7 +164,6 @@ h6 {
 }
 
 .esprit {
-    display: inline;
     background-color: green;
     position: absolute;
     bottom: 98px;
