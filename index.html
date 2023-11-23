@@ -32,12 +32,12 @@
                     <img id="logo" src="img/boolean-logo.png" alt="logo Boolean">
                 </div>
                 <div class="nav-child flex-link">
-                    <ul class="flex-link target">
+                    <ul class="target flex">
                         <li >
                             <i class="fa-regular fa-user"></i>
                         </li>
                         <li>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart l-heart"></i>
                         </li>
                         <li>
                             <i class="fa-solid fa-bag-shopping"></i>
@@ -47,87 +47,122 @@
             </nav>
         </header>
 
-        <main>
+        <main class="container">
             <!-- contenitore e 2 file di card -->
-            <div class="container">
-                <div class="card">
-                    <img class="size left" src="img/1.webp" alt="modello Levi's">
-                    <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
+            <div class="row">
+                <div class="col">
+                    <div class="card-top">
+                        <img class="main" src="img/1.webp" alt="modello Levi's">
+                        <img class="sec" src="img/1b.webp" alt="modello Lev's top">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="labels">
+                            <span class="percent">-50%</span>
+                            <span class="echo-friendly">Sostenibilità</span>
+                        </div>
                     </div>
-                    <div class="percent">-50%</div>
-                    <div class="echo-friendly">Sostenibilità</div>
-                    <h5>Levi's</h5>
-                    <h4>RELAXED FIT UNISEX</h4>
-                    <span class="discount">14,99</span>
-                    <span class="discount">&euro;</span>
-                    <span class="original">29,99</span>
-                    <span class="original">&euro;</span>
+                    <div class="card-bottom">
+                        <h5>Levi's</h5>
+                        <h4>RELAXED FIT UNISEX</h4>
+                        <span class="discount">14,99 &euro;</span>
+                        <del class="original">29,99 &euro;</del>
+                    </div>
                 </div>
-                <div class="card">
-                    <img class="size center" src="img/2.webp" alt="modella Guess">
-                    <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
+                
+                <div class="col">
+                    <div class="card-top">
+                        <img class="main" src="img/2.webp" alt="modella Guess">
+                        <img class="sec" src="img/2b.webp" alt="modella Guess top">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="labels">
+                            <span class="percent">-30%</span>
+                        </div>
                     </div>
-                    <div class="percent">-30%</div>
-                    <h5>Guess</h5>
-                    <h4>ROSES TEE</h4>
-                    <span class="discount">20,99</span>
-                    <span class="discount">&euro;</span>
-                    <span class="original">29,99</span>
-                    <span class="original">&euro;</span>
+
+                    <div class="card-bottom">
+                        <h5>Guess</h5>
+                        <h4>ROSES TEE</h4>
+                        <span class="discount">20,99 &euro;</span>
+                        <del class="original">29,99 &euro;</del>
+                    </div>
                 </div>
-                <div class="card">
-                    <img class="size right" src="img/3.webp" alt="modella a terra">
-                    <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
+                
+                <div class="col">
+                    <div class="card-top">
+                        <img class="main" src="img/3.webp" alt="modella a terra">
+                        <img class="sec" src="img/3b.webp" alt="modella a terra top">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="labels">
+                            <span class="percent">-30%</span>
+                        </div>
                     </div>
-                    <div class="percent">-30%</div>
-                    <h5>Come Zucchero Filato</h5>
-                    <h4>VOGLIA DI COLORI PASTELLO</h4>
-                    <span class="discount">14,99</span>
-                    <span class="discount">&euro;</span>
-                    <span class="original">29,99</span>
-                    <span class="original">&euro;</span>
+                    <div class="card-bottom">
+                        <h5>Come Zucchero Filato</h5>
+                        <h4>VOGLIA DI COLORI PASTELLO</h4>
+                        <span class="discount">14,99 &euro;</span>
+                        <del class="original">29,99 &euro;</del>
+                    </div>
                 </div>
-                <div class="card">
-                    <img class="size left-b" src="img/4.webp" alt="secondo modello Levi's">
-                    <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
+
+                <div class="col">
+                    <div class="card-top">
+                        <img class="main" src="img/4.webp" alt="secondo modello Levi's">
+                        <img class="sec" src="img/4b.webp" alt="secondo modello Levi's">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="labels">
+                            <span class="percent">-50%</span>
+                            <span class="echo-friendly">Sostenibilità</span>
+                        </div>
                     </div>
-                    <div class="percent">-50%</div>
-                    <div class="echo-friendly">Sostenibilità</div>
-                    <h5>Levi's</h5>
-                    <h4>TEE UNISEX</h4>
-                    <span class="discount">14,99</span>
-                    <span class="discount">&euro;</span>
-                    <span class="original">29,99</span>
-                    <span class="original">&euro;</span>
+                    <div class="card-bottom">
+                        <h5>Levi's</h5>
+                        <h4>TEE UNISEX</h4>
+                        <span class="discount">14,99 &euro;</span>
+                        <del class="original">29,99 &euro;</del>
+                    </div>
                 </div>
-                <div class="card">
-                    <img class="size center-b" src="img/5.webp" alt="modella vestito lungo">
-                    <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
+
+                <div class="col">
+                    <div class="card-top">
+                        <img class="main" src="img/5.webp" alt="modella vestito lungo">
+                        <img class="sec" src="img/5b.webp" alt="modella vestito lungo top">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
                     </div>
-                    <h5>Maya Deluxe</h5>
-                    <h4>STRIPE BODICE</h4>
-                    <span class="discount">14,99</span>
-                    <span class="discount">&euro;</span>
-                    <span class="original">29,99</span>
-                    <span class="original">&euro;</span>
+                    <div class="card-bottom">
+                        <h5>Maya Deluxe</h5>
+                        <h4>STRIPE BODICE</h4>
+                        <span class="discount">14,99 &euro;</span>
+                        <del class="original">29,99 &euro;</del>
+                    </div>
                 </div>
-                <div class="card">
-                    <img class="size right-b" src="img/6.webp" alt="modella">
-                    <div class="heart">
-                        <i class="fa-solid fa-heart"></i>
+                        
+
+                <div class="col">
+                    <div class="card-top">
+                        <img class="main" src="img/6.webp" alt="modella">
+                        <img class="sec" src="img/6b.webp" alt="modella top">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div class="labels">
+                            <span class="echo-friendly">Sostenibilità</span>
+                        </div>
                     </div>
-                    <div class="esprit">Sostenibilità</div>
-                    <h5>Esprit</h5>
-                    <h4>MAGLIONE-BLACK</h4>
-                    <span class="discount">14,99</span>
-                    <span class="discount">&euro;</span>
-                    <span class="original">29,99</span>
-                    <span class="original">&euro;</span>
+                    <div class="card-bottom">
+                        <h5>Esprit</h5>
+                        <h4>MAGLIONE-BLACK</h4>
+                        <span class="discount">14,99 &euro;</span>
+                        <del class="original">29,99 &euro;</del>
+                    </div>
                 </div>
             </div>
         </main>
@@ -137,7 +172,7 @@
             <nav class="navbar">
                 <div class="l-child">
                     <h3>Boolando s.r.l.</h3>
-                    <ul class="flex target">
+                    <ul class="flex target info">
                         <li>
                             <a href="#">Informazioni legali</a>
                         </li>
@@ -168,7 +203,7 @@
                             <i class="fa-brands fa-square-youtube"></i>
                         </li>
                     </ul>
-                </div>
+    main/div>
             </nav>
         </footer>
     </body>
