@@ -32,13 +32,13 @@ body{
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
     align-content: flex-start;
+    margin: 0 -10px;
 }
 
 .col {
-    border: 2px dashed yellow;
-    width: 32%;
+    flex-basis: 33%;
+    padding: 0 10px;
 }
 
 .card-top {
