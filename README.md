@@ -1,3 +1,8 @@
+Boolando
+This project is about a page from an e-commerce. The aim was to show a different picture on hover.
+I created it by using vanilla html and css.
+
+
 Ciao Ragazzi,
 Esercizio di oggi: Boolando
 nome repo: html-css-boolando
