@@ -1,6 +1,7 @@
 Boolando
-This project is about a page from an e-commerce. The aim was to show a different picture on hover.
-I created it by using vanilla html and css.
+This project is about a static page from an e-commerce. The aim was to show a different picture on hover. The header is in position fixed.  
+I created it to practice with css, focusing on position and some effects on hover.
+I've been using vanilla html and css.
 
 
 Ciao Ragazzi,
